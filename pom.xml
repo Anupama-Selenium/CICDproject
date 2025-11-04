@@ -5,6 +5,10 @@
 	<groupId>SeleniumTesting4new</groupId>
 	<artifactId>SeleniumTesting4new</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -27,7 +31,47 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>5.1.1</version>
-		</dependency>
-		
+		</dependency>	
 	</dependencies>
+	<profiles>
+	
+	<profile>
+	<id>testngxml1</id>
+	<build>
+    <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      	</plugin>
+    </plugins>
+</build>
+	</profile>
+	
+	<profile>
+	<id>testngxml2</id>
+	<build>
+    <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.4</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng2.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      	</plugin>
+    </plugins>
+</build>
+	</profile>
+	
+	</profiles>
+	
+	
 </project>
