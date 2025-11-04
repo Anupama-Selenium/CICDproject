@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-04T11:56:30 IST" name="SeleniumSuite" finished-at="2025-11-04T11:58:24 IST" duration-ms="114022">
+    <groups>
+    </groups>
+    <test started-at="2025-11-04T11:56:30 IST" name="FireFox Test" finished-at="2025-11-04T11:58:01 IST" duration-ms="91103">
+      <class name="qa.tests.Testcase1">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:qa.tests.Testcase1@192c3f1e]" started-at="2025-11-04T11:56:29 IST" name="setupExtent" finished-at="2025-11-04T11:56:30 IST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@192c3f1e]" started-at="2025-11-04T11:56:30 IST" name="setup" finished-at="2025-11-04T11:57:26 IST" duration-ms="55335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@192c3f1e]" started-at="2025-11-04T11:57:26 IST" name="enteringCredentials" data-provider="getData" finished-at="2025-11-04T11:57:30 IST" duration-ms="4679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adminuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@192c3f1e]" started-at="2025-11-04T11:57:30 IST" name="afterMethod" finished-at="2025-11-04T11:57:35 IST" duration-ms="4945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@192c3f1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@192c3f1e]" started-at="2025-11-04T11:57:35 IST" name="setup" finished-at="2025-11-04T11:57:54 IST" duration-ms="18578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@192c3f1e]" started-at="2025-11-04T11:57:54 IST" name="enteringCredentials" data-provider="getData" finished-at="2025-11-04T11:57:58 IST" duration-ms="4516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@192c3f1e]" started-at="2025-11-04T11:57:58 IST" name="afterMethod" finished-at="2025-11-04T11:58:01 IST" duration-ms="2923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@192c3f1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.tests.Testcase1@192c3f1e]" started-at="2025-11-04T11:58:24 IST" name="tearDown" finished-at="2025-11-04T11:58:25 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.tests.Testcase1 -->
+    </test> <!-- FireFox Test -->
+    <test started-at="2025-11-04T11:56:30 IST" name="Chrome Test" finished-at="2025-11-04T11:58:13 IST" duration-ms="102400">
+      <class name="qa.tests.Testcase1">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@8297b3a]" started-at="2025-11-04T11:56:30 IST" name="setup" finished-at="2025-11-04T11:57:40 IST" duration-ms="69414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@8297b3a]" started-at="2025-11-04T11:57:40 IST" name="enteringCredentials" data-provider="getData" finished-at="2025-11-04T11:57:48 IST" duration-ms="8535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adminuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@8297b3a]" started-at="2025-11-04T11:57:48 IST" name="afterMethod" finished-at="2025-11-04T11:57:59 IST" duration-ms="11009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@8297b3a]" started-at="2025-11-04T11:57:59 IST" name="setup" finished-at="2025-11-04T11:58:07 IST" duration-ms="7863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@8297b3a]" started-at="2025-11-04T11:58:07 IST" name="enteringCredentials" data-provider="getData" finished-at="2025-11-04T11:58:12 IST" duration-ms="4921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@8297b3a]" started-at="2025-11-04T11:58:12 IST" name="afterMethod" finished-at="2025-11-04T11:58:13 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- qa.tests.Testcase1 -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-11-04T11:56:30 IST" name="Edge Test" finished-at="2025-11-04T11:58:24 IST" duration-ms="114008">
+      <class name="qa.tests.Testcase1">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@1f59a598]" started-at="2025-11-04T11:56:30 IST" name="setup" finished-at="2025-11-04T11:58:01 IST" duration-ms="90563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@1f59a598]" started-at="2025-11-04T11:58:01 IST" name="enteringCredentials" data-provider="getData" finished-at="2025-11-04T11:58:10 IST" duration-ms="9217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adminuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@1f59a598]" started-at="2025-11-04T11:58:10 IST" name="afterMethod" finished-at="2025-11-04T11:58:11 IST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@1f59a598] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@1f59a598]" started-at="2025-11-04T11:58:11 IST" name="setup" finished-at="2025-11-04T11:58:20 IST" duration-ms="9403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@1f59a598]" started-at="2025-11-04T11:58:20 IST" name="enteringCredentials" data-provider="getData" finished-at="2025-11-04T11:58:24 IST" duration-ms="3989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@1f59a598]" started-at="2025-11-04T11:58:24 IST" name="afterMethod" finished-at="2025-11-04T11:58:24 IST" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.String,java.lang.String)[pri:0, instance:qa.tests.Testcase1@1f59a598] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- qa.tests.Testcase1 -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- SeleniumSuite -->
+</testng-results>
