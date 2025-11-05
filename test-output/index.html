@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-SeleniumSuite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,32 +103,12 @@
                     <div class="method-list-content passed suite-SeleniumSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SeleniumSuite" title="qa.tests.Testcase1" class="method navigator-link" hash-for-method="enteringCredentials(adminuser, 12345)">enteringCredentials(adminuser, 12345)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SeleniumSuite" title="qa.tests.Testcase1" class="method navigator-link" hash-for-method="enteringCredentials(abcdefgh, 98765)">enteringCredentials(abcdefgh, 98765)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SeleniumSuite" title="qa.tests.Testcase1" class="method navigator-link" hash-for-method="enteringCredentials(adminuser, 12345)">enteringCredentials(adminuser, 12345)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SeleniumSuite" title="qa.tests.Testcase1" class="method navigator-link" hash-for-method="enteringCredentials(abcdefgh, 98765)">enteringCredentials(abcdefgh, 98765)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SeleniumSuite" title="qa.tests.Testcase1" class="method navigator-link" hash-for-method="enteringCredentials(adminuser, 12345)">enteringCredentials(adminuser, 12345)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SeleniumSuite" title="qa.tests.Testcase1" class="method navigator-link" hash-for-method="enteringCredentials(abcdefgh, 98765)">enteringCredentials(abcdefgh, 98765)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SeleniumSuite -->
@@ -151,14 +131,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="enteringCredentials(adminuser, 12345)">
-                  </a> <!-- enteringCredentials(adminuser, 12345) -->
-                  <span class="method-name">enteringCredentials</span>
-                  <span class="parameters">(adminuser,12345)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="enteringCredentials(abcdefgh, 98765)">
                   </a> <!-- enteringCredentials(abcdefgh, 98765) -->
                   <span class="method-name">enteringCredentials</span>
@@ -171,30 +143,6 @@
                   </a> <!-- enteringCredentials(adminuser, 12345) -->
                   <span class="method-name">enteringCredentials</span>
                   <span class="parameters">(adminuser,12345)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enteringCredentials(abcdefgh, 98765)">
-                  </a> <!-- enteringCredentials(abcdefgh, 98765) -->
-                  <span class="method-name">enteringCredentials</span>
-                  <span class="parameters">(abcdefgh,98765)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enteringCredentials(adminuser, 12345)">
-                  </a> <!-- enteringCredentials(adminuser, 12345) -->
-                  <span class="method-name">enteringCredentials</span>
-                  <span class="parameters">(adminuser,12345)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enteringCredentials(abcdefgh, 98765)">
-                  </a> <!-- enteringCredentials(abcdefgh, 98765) -->
-                  <span class="method-name">enteringCredentials</span>
-                  <span class="parameters">(abcdefgh,98765)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -208,28 +156,16 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;SeleniumSuite&quot;&gt;
+&lt;suite name=&quot;SeleniumSuite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utils.SuiteListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Chrome Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;qa.tests.Testcase1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Chrome Test --&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Edge Test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;qa.tests.Testcase1&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Edge Test --&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;FireFox Test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;qa.tests.Testcase1&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- FireFox Test --&gt;
 &lt;/suite&gt; &lt;!-- SeleniumSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,12 +178,6 @@
             <ul>
               <li>
                 <span class="test-name">Chrome Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Edge Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">FireFox Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -273,36 +203,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'enteringCredentials')
 data.setCell(0, 2, 'qa.tests.Testcase1')
-data.setCell(0, 3, 9217);
+data.setCell(0, 3, 3944);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'enteringCredentials')
 data.setCell(1, 2, 'qa.tests.Testcase1')
-data.setCell(1, 3, 8535);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'enteringCredentials')
-data.setCell(2, 2, 'qa.tests.Testcase1')
-data.setCell(2, 3, 4921);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'enteringCredentials')
-data.setCell(3, 2, 'qa.tests.Testcase1')
-data.setCell(3, 3, 4679);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'enteringCredentials')
-data.setCell(4, 2, 'qa.tests.Testcase1')
-data.setCell(4, 3, 4516);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'enteringCredentials')
-data.setCell(5, 2, 'qa.tests.Testcase1')
-data.setCell(5, 3, 3989);
+data.setCell(1, 3, 3828);
 window.suiteTableData['SeleniumSuite']= { tableData: data, tableDiv: 'times-div-SeleniumSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-SeleniumSuite">
               </div> <!-- times-div-SeleniumSuite -->
             </div> <!-- times-div -->
@@ -335,79 +249,31 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String))</span>
-                <span class="method-start">1199 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(edge, public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String))</span>
-                <span class="method-start">1199 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(firefox, public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String))</span>
-                <span class="method-start">1199 ms</span>
+                <span class="method-start">689 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">enteringCredentials(adminuser, 12345)</span>
-                <span class="method-start">56536 ms</span>
+                <span class="method-start">7367 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.S...)</span>
-                <span class="method-start">61219 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(firefox, public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String))</span>
-                <span class="method-start">66165 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">enteringCredentials(adminuser, 12345)</span>
-                <span class="method-start">70613 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.S...)</span>
-                <span class="method-start">79150 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">enteringCredentials(abcdefgh, 98765)</span>
-                <span class="method-start">84743 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.S...)</span>
-                <span class="method-start">89262 ms</span>
+                <span class="method-start">11317 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String))</span>
-                <span class="method-start">90160 ms</span>
+                <span class="method-start">11741 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">enteringCredentials(adminuser, 12345)</span>
-                <span class="method-start">91762 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">enteringCredentials(abcdefgh, 98765)</span>
-                <span class="method-start">98023 ms</span>
+                <span class="method-start">16210 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.S...)</span>
-                <span class="method-start">100980 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup(edge, public void qa.tests.Testcase1.enteringCredentials(java.lang.String,java.lang.String))</span>
-                <span class="method-start">101348 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.S...)</span>
-                <span class="method-start">103172 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">enteringCredentials(abcdefgh, 98765)</span>
-                <span class="method-start">110751 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=enteringCredentials status=SUCCESS method=Testcase1.enteringCredentials(java.lang.S...)</span>
-                <span class="method-start">114751 ms</span>
+                <span class="method-start">20043 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">115116 ms</span>
+                <span class="method-start">20598 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
