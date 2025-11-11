@@ -15,6 +15,7 @@ public class Testcase1 extends BaseTest {
 	@Test(dataProvider = "getData")
 	public void enteringCredentials(String email, String password)
 	{
+//new changes as comment to check jenkins get trigger automatically via //webhook or not
 		getLogger().info("Signin into LoginPage");
 		hmpage.signInButton();
 		getLogger().info("verify If Login Page Is Loaded");
